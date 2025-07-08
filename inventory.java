@@ -8,6 +8,7 @@ public class inventory {
         arr.add(book);
     }
 
+    // remove books since the given year
     public ArrayList<Book> remove (int since_year){
         ArrayList<Book> rmv = new ArrayList<>();
         Iterator<Book> it = arr.iterator();
